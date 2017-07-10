@@ -1,0 +1,6 @@
+framework module Pods_Andrew_The_Game {
+  umbrella header "Pods-Andrew The Game-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096E8986443B1CB3635FCF04 /* Pods_Andrew_The_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF7DCA2B115054E51F5BD7D /* Pods_Andrew_The_Game.framework */; };
+		206E9A511F11DA1C00B4302D /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E9A501F11DA1C00B4302D /* Candy.swift */; };
+		206E9A531F11E9EC00B4302D /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E9A521F11E9EC00B4302D /* Enemy.swift */; };
+		206E9A551F11F99900B4302D /* EndScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 206E9A541F11F99900B4302D /* EndScene.sks */; };
+		206E9A571F11FB7A00B4302D /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E9A561F11FB7A00B4302D /* EndScene.swift */; };
+		206E9A591F11FBAD00B4302D /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E9A581F11FBAD00B4302D /* Button.swift */; };
+		20AC3AFC1F0FF8B8008220F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC3AFB1F0FF8B8008220F7 /* AppDelegate.swift */; };
+		20AC3AFE1F0FF8B8008220F7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 20AC3AFD1F0FF8B8008220F7 /* GameScene.sks */; };
+		20AC3B001F0FF8B8008220F7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 20AC3AFF1F0FF8B8008220F7 /* Actions.sks */; };
+		20AC3B021F0FF8B8008220F7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC3B011F0FF8B8008220F7 /* GameScene.swift */; };
+		20AC3B041F0FF8B8008220F7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC3B031F0FF8B8008220F7 /* GameViewController.swift */; };
+		20AC3B071F0FF8B8008220F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AC3B051F0FF8B8008220F7 /* Main.storyboard */; };
+		20AC3B091F0FF8B9008220F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AC3B081F0FF8B9008220F7 /* Assets.xcassets */; };
+		20AC3B0C1F0FF8B9008220F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AC3B0A1F0FF8B9008220F7 /* LaunchScreen.storyboard */; };
+		20AC3B171F0FF8B9008220F7 /* Andrew_The_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC3B161F0FF8B9008220F7 /* Andrew_The_GameTests.swift */; };
+		20AC3B221F0FF8B9008220F7 /* Andrew_The_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC3B211F0FF8B9008220F7 /* Andrew_The_GameUITests.swift */; };
+		20E8CB3C1F12139600FAD36D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20E8CB3B1F12139600FAD36D /* GoogleService-Info.plist */; };
+		9A6C02EE6112324CDE97035F /* Pods_Andrew_The_GameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E463839A0DFACE28BC80CB /* Pods_Andrew_The_GameUITests.framework */; };
+		B12F89263D8C564179201067 /* Pods_Andrew_The_GameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1A05D021C56BDFA4C7C969 /* Pods_Andrew_The_GameTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20AC3B131F0FF8B9008220F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20AC3AF01F0FF8B8008220F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20AC3AF71F0FF8B8008220F7;
+			remoteInfo = "Andrew The Game";
+		};
+		20AC3B1E1F0FF8B9008220F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20AC3AF01F0FF8B8008220F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20AC3AF71F0FF8B8008220F7;
+			remoteInfo = "Andrew The Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		206E9A501F11DA1C00B4302D /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		206E9A521F11E9EC00B4302D /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		206E9A541F11F99900B4302D /* EndScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScene.sks; sourceTree = "<group>"; };
+		206E9A561F11FB7A00B4302D /* EndScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
+		206E9A581F11FBAD00B4302D /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Button.swift; path = "../../TaptoSort/Tap to Sort/Button.swift"; sourceTree = "<group>"; };
+		20AC3AF81F0FF8B8008220F7 /* Andrew The Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Andrew The Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AC3AFB1F0FF8B8008220F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20AC3AFD1F0FF8B8008220F7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		20AC3AFF1F0FF8B8008220F7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		20AC3B011F0FF8B8008220F7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		20AC3B031F0FF8B8008220F7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		20AC3B061F0FF8B8008220F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20AC3B081F0FF8B9008220F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20AC3B0B1F0FF8B9008220F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20AC3B0D1F0FF8B9008220F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20AC3B121F0FF8B9008220F7 /* Andrew The GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Andrew The GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AC3B161F0FF8B9008220F7 /* Andrew_The_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Andrew_The_GameTests.swift; sourceTree = "<group>"; };
+		20AC3B181F0FF8B9008220F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20AC3B1D1F0FF8B9008220F7 /* Andrew The GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Andrew The GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AC3B211F0FF8B9008220F7 /* Andrew_The_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Andrew_The_GameUITests.swift; sourceTree = "<group>"; };
+		20AC3B231F0FF8B9008220F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E8CB3B1F12139600FAD36D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		260D933EB928BD9A27D29398 /* Pods-Andrew The GameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andrew The GameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Andrew The GameUITests/Pods-Andrew The GameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53E463839A0DFACE28BC80CB /* Pods_Andrew_The_GameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Andrew_The_GameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1A05D021C56BDFA4C7C969 /* Pods_Andrew_The_GameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Andrew_The_GameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A89EC4A50336D6C29D064B /* Pods-Andrew The Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andrew The Game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Andrew The Game/Pods-Andrew The Game.debug.xcconfig"; sourceTree = "<group>"; };
+		B17A65672E08F292FD32B2B9 /* Pods-Andrew The GameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andrew The GameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Andrew The GameUITests/Pods-Andrew The GameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BAF7DCA2B115054E51F5BD7D /* Pods_Andrew_The_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Andrew_The_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD0166A91E9D6842F65BB62 /* Pods-Andrew The GameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andrew The GameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Andrew The GameTests/Pods-Andrew The GameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E07862BB532393CE1B93B058 /* Pods-Andrew The GameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andrew The GameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Andrew The GameTests/Pods-Andrew The GameTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0F15001DCC4E8F8982036B0 /* Pods-Andrew The Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andrew The Game.release.xcconfig"; path = "Pods/Target Support Files/Pods-Andrew The Game/Pods-Andrew The Game.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20AC3AF51F0FF8B8008220F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096E8986443B1CB3635FCF04 /* Pods_Andrew_The_Game.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AC3B0F1F0FF8B9008220F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12F89263D8C564179201067 /* Pods_Andrew_The_GameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AC3B1A1F0FF8B9008220F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6C02EE6112324CDE97035F /* Pods_Andrew_The_GameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20AC3AEF1F0FF8B8008220F7 = {
+			isa = PBXGroup;
+			children = (
+				20AC3AFA1F0FF8B8008220F7 /* Andrew The Game */,
+				20AC3B151F0FF8B9008220F7 /* Andrew The GameTests */,
+				20AC3B201F0FF8B9008220F7 /* Andrew The GameUITests */,
+				20AC3AF91F0FF8B8008220F7 /* Products */,
+				7D6B6C501FE346C5D40CBE9C /* Pods */,
+				D6936A84906A6AF256F03C08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20AC3AF91F0FF8B8008220F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20AC3AF81F0FF8B8008220F7 /* Andrew The Game.app */,
+				20AC3B121F0FF8B9008220F7 /* Andrew The GameTests.xctest */,
+				20AC3B1D1F0FF8B9008220F7 /* Andrew The GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20AC3AFA1F0FF8B8008220F7 /* Andrew The Game */ = {
+			isa = PBXGroup;
+			children = (
+				20AC3AFB1F0FF8B8008220F7 /* AppDelegate.swift */,
+				20AC3AFD1F0FF8B8008220F7 /* GameScene.sks */,
+				20AC3AFF1F0FF8B8008220F7 /* Actions.sks */,
+				20AC3B011F0FF8B8008220F7 /* GameScene.swift */,
+				206E9A541F11F99900B4302D /* EndScene.sks */,
+				206E9A561F11FB7A00B4302D /* EndScene.swift */,
+				206E9A521F11E9EC00B4302D /* Enemy.swift */,
+				206E9A501F11DA1C00B4302D /* Candy.swift */,
+				20AC3B031F0FF8B8008220F7 /* GameViewController.swift */,
+				206E9A581F11FBAD00B4302D /* Button.swift */,
+				20AC3B051F0FF8B8008220F7 /* Main.storyboard */,
+				20AC3B081F0FF8B9008220F7 /* Assets.xcassets */,
+				20AC3B0A1F0FF8B9008220F7 /* LaunchScreen.storyboard */,
+				20AC3B0D1F0FF8B9008220F7 /* Info.plist */,
+				20E8CB3B1F12139600FAD36D /* GoogleService-Info.plist */,
+			);
+			path = "Andrew The Game";
+			sourceTree = "<group>";
+		};
+		20AC3B151F0FF8B9008220F7 /* Andrew The GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				20AC3B161F0FF8B9008220F7 /* Andrew_The_GameTests.swift */,
+				20AC3B181F0FF8B9008220F7 /* Info.plist */,
+			);
+			path = "Andrew The GameTests";
+			sourceTree = "<group>";
+		};
+		20AC3B201F0FF8B9008220F7 /* Andrew The GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20AC3B211F0FF8B9008220F7 /* Andrew_The_GameUITests.swift */,
+				20AC3B231F0FF8B9008220F7 /* Info.plist */,
+			);
+			path = "Andrew The GameUITests";
+			sourceTree = "<group>";
+		};
+		7D6B6C501FE346C5D40CBE9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96A89EC4A50336D6C29D064B /* Pods-Andrew The Game.debug.xcconfig */,
+				F0F15001DCC4E8F8982036B0 /* Pods-Andrew The Game.release.xcconfig */,
+				BBD0166A91E9D6842F65BB62 /* Pods-Andrew The GameTests.debug.xcconfig */,
+				E07862BB532393CE1B93B058 /* Pods-Andrew The GameTests.release.xcconfig */,
+				260D933EB928BD9A27D29398 /* Pods-Andrew The GameUITests.debug.xcconfig */,
+				B17A65672E08F292FD32B2B9 /* Pods-Andrew The GameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6936A84906A6AF256F03C08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAF7DCA2B115054E51F5BD7D /* Pods_Andrew_The_Game.framework */,
+				7B1A05D021C56BDFA4C7C969 /* Pods_Andrew_The_GameTests.framework */,
+				53E463839A0DFACE28BC80CB /* Pods_Andrew_The_GameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20AC3AF71F0FF8B8008220F7 /* Andrew The Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AC3B261F0FF8B9008220F7 /* Build configuration list for PBXNativeTarget "Andrew The Game" */;
+			buildPhases = (
+				DC25A5C7929D24E633B876DB /* [CP] Check Pods Manifest.lock */,
+				20AC3AF41F0FF8B8008220F7 /* Sources */,
+				20AC3AF51F0FF8B8008220F7 /* Frameworks */,
+				20AC3AF61F0FF8B8008220F7 /* Resources */,
+				7AA406E9D1C5DEC10520AF58 /* [CP] Embed Pods Frameworks */,
+				308B650F2AD03E1165630958 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Andrew The Game";
+			productName = "Andrew The Game";
+			productReference = 20AC3AF81F0FF8B8008220F7 /* Andrew The Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20AC3B111F0FF8B9008220F7 /* Andrew The GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AC3B291F0FF8B9008220F7 /* Build configuration list for PBXNativeTarget "Andrew The GameTests" */;
+			buildPhases = (
+				B8C3743FF9E8CD795B10A9F4 /* [CP] Check Pods Manifest.lock */,
+				20AC3B0E1F0FF8B9008220F7 /* Sources */,
+				20AC3B0F1F0FF8B9008220F7 /* Frameworks */,
+				20AC3B101F0FF8B9008220F7 /* Resources */,
+				167221E41C510EF6633BEFB9 /* [CP] Embed Pods Frameworks */,
+				5E38E9DC535AD3E579B527BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20AC3B141F0FF8B9008220F7 /* PBXTargetDependency */,
+			);
+			name = "Andrew The GameTests";
+			productName = "Andrew The GameTests";
+			productReference = 20AC3B121F0FF8B9008220F7 /* Andrew The GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20AC3B1C1F0FF8B9008220F7 /* Andrew The GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AC3B2C1F0FF8B9008220F7 /* Build configuration list for PBXNativeTarget "Andrew The GameUITests" */;
+			buildPhases = (
+				68D9C6A50ED8D1E2D58B6B68 /* [CP] Check Pods Manifest.lock */,
+				20AC3B191F0FF8B9008220F7 /* Sources */,
+				20AC3B1A1F0FF8B9008220F7 /* Frameworks */,
+				20AC3B1B1F0FF8B9008220F7 /* Resources */,
+				F577A1879A3667E72378D0F5 /* [CP] Embed Pods Frameworks */,
+				6E603DA2576C8370A1933D3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20AC3B1F1F0FF8B9008220F7 /* PBXTargetDependency */,
+			);
+			name = "Andrew The GameUITests";
+			productName = "Andrew The GameUITests";
+			productReference = 20AC3B1D1F0FF8B9008220F7 /* Andrew The GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20AC3AF01F0FF8B8008220F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Evan Chen";
+				TargetAttributes = {
+					20AC3AF71F0FF8B8008220F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6H36FS38Y3;
+						ProvisioningStyle = Automatic;
+					};
+					20AC3B111F0FF8B9008220F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6H36FS38Y3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20AC3AF71F0FF8B8008220F7;
+					};
+					20AC3B1C1F0FF8B9008220F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6H36FS38Y3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20AC3AF71F0FF8B8008220F7;
+					};
+				};
+			};
+			buildConfigurationList = 20AC3AF31F0FF8B8008220F7 /* Build configuration list for PBXProject "Andrew The Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20AC3AEF1F0FF8B8008220F7;
+			productRefGroup = 20AC3AF91F0FF8B8008220F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20AC3AF71F0FF8B8008220F7 /* Andrew The Game */,
+				20AC3B111F0FF8B9008220F7 /* Andrew The GameTests */,
+				20AC3B1C1F0FF8B9008220F7 /* Andrew The GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20AC3AF61F0FF8B8008220F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206E9A551F11F99900B4302D /* EndScene.sks in Resources */,
+				20AC3B071F0FF8B8008220F7 /* Main.storyboard in Resources */,
+				20AC3AFE1F0FF8B8008220F7 /* GameScene.sks in Resources */,
+				20AC3B091F0FF8B9008220F7 /* Assets.xcassets in Resources */,
+				20AC3B0C1F0FF8B9008220F7 /* LaunchScreen.storyboard in Resources */,
+				20AC3B001F0FF8B8008220F7 /* Actions.sks in Resources */,
+				20E8CB3C1F12139600FAD36D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AC3B101F0FF8B9008220F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AC3B1B1F0FF8B9008220F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167221E41C510EF6633BEFB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Andrew The GameTests/Pods-Andrew The GameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		308B650F2AD03E1165630958 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Andrew The Game/Pods-Andrew The Game-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E38E9DC535AD3E579B527BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Andrew The GameTests/Pods-Andrew The GameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D9C6A50ED8D1E2D58B6B68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E603DA2576C8370A1933D3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Andrew The GameUITests/Pods-Andrew The GameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AA406E9D1C5DEC10520AF58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Andrew The Game/Pods-Andrew The Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C3743FF9E8CD795B10A9F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC25A5C7929D24E633B876DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F577A1879A3667E72378D0F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Andrew The GameUITests/Pods-Andrew The GameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20AC3AF41F0FF8B8008220F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206E9A591F11FBAD00B4302D /* Button.swift in Sources */,
+				206E9A571F11FB7A00B4302D /* EndScene.swift in Sources */,
+				20AC3B021F0FF8B8008220F7 /* GameScene.swift in Sources */,
+				206E9A531F11E9EC00B4302D /* Enemy.swift in Sources */,
+				206E9A511F11DA1C00B4302D /* Candy.swift in Sources */,
+				20AC3B041F0FF8B8008220F7 /* GameViewController.swift in Sources */,
+				20AC3AFC1F0FF8B8008220F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AC3B0E1F0FF8B9008220F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AC3B171F0FF8B9008220F7 /* Andrew_The_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AC3B191F0FF8B9008220F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AC3B221F0FF8B9008220F7 /* Andrew_The_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20AC3B141F0FF8B9008220F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20AC3AF71F0FF8B8008220F7 /* Andrew The Game */;
+			targetProxy = 20AC3B131F0FF8B9008220F7 /* PBXContainerItemProxy */;
+		};
+		20AC3B1F1F0FF8B9008220F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20AC3AF71F0FF8B8008220F7 /* Andrew The Game */;
+			targetProxy = 20AC3B1E1F0FF8B9008220F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20AC3B051F0FF8B8008220F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AC3B061F0FF8B8008220F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20AC3B0A1F0FF8B9008220F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AC3B0B1F0FF8B9008220F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20AC3B241F0FF8B9008220F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20AC3B251F0FF8B9008220F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20AC3B271F0FF8B9008220F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A89EC4A50336D6C29D064B /* Pods-Andrew The Game.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H36FS38Y3;
+				INFOPLIST_FILE = "Andrew The Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chiyu.Gravity-Girl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		20AC3B281F0FF8B9008220F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F15001DCC4E8F8982036B0 /* Pods-Andrew The Game.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H36FS38Y3;
+				INFOPLIST_FILE = "Andrew The Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chiyu.Gravity-Girl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		20AC3B2A1F0FF8B9008220F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD0166A91E9D6842F65BB62 /* Pods-Andrew The GameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6H36FS38Y3;
+				INFOPLIST_FILE = "Andrew The GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chiyu.Andrew-The-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Andrew The Game.app/Andrew The Game";
+			};
+			name = Debug;
+		};
+		20AC3B2B1F0FF8B9008220F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07862BB532393CE1B93B058 /* Pods-Andrew The GameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6H36FS38Y3;
+				INFOPLIST_FILE = "Andrew The GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chiyu.Andrew-The-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Andrew The Game.app/Andrew The Game";
+			};
+			name = Release;
+		};
+		20AC3B2D1F0FF8B9008220F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260D933EB928BD9A27D29398 /* Pods-Andrew The GameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6H36FS38Y3;
+				INFOPLIST_FILE = "Andrew The GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chiyu.Andrew-The-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Andrew The Game";
+			};
+			name = Debug;
+		};
+		20AC3B2E1F0FF8B9008220F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17A65672E08F292FD32B2B9 /* Pods-Andrew The GameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6H36FS38Y3;
+				INFOPLIST_FILE = "Andrew The GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chiyu.Andrew-The-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Andrew The Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20AC3AF31F0FF8B8008220F7 /* Build configuration list for PBXProject "Andrew The Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AC3B241F0FF8B9008220F7 /* Debug */,
+				20AC3B251F0FF8B9008220F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20AC3B261F0FF8B9008220F7 /* Build configuration list for PBXNativeTarget "Andrew The Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AC3B271F0FF8B9008220F7 /* Debug */,
+				20AC3B281F0FF8B9008220F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20AC3B291F0FF8B9008220F7 /* Build configuration list for PBXNativeTarget "Andrew The GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AC3B2A1F0FF8B9008220F7 /* Debug */,
+				20AC3B2B1F0FF8B9008220F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20AC3B2C1F0FF8B9008220F7 /* Build configuration list for PBXNativeTarget "Andrew The GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AC3B2D1F0FF8B9008220F7 /* Debug */,
+				20AC3B2E1F0FF8B9008220F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20AC3AF01F0FF8B8008220F7 /* Project object */;
+}
